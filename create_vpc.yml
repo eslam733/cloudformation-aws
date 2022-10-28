@@ -3,7 +3,7 @@ Resources:
   UdacityVPC:
     Type: 'AWS::EC2::VPC'
     Properties:
-      CidrBlock: 10.0.0.0/20
+      CidrBlock: 10.0.0.0/16
       EnableDnsHostnames: 'true'
       Tags:
       - Key: name
